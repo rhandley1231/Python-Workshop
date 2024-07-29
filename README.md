@@ -2,3 +2,8 @@ For any questions please use the discussion board.  This workshop assumes the us
 ```sh
 conda install python-graphviz
 ```
+ To run the Bokeh Visualization, use the following script:
+```sh
+cd Visualization
+bokeh serve --show titanic.py
+```
